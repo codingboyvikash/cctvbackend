@@ -17,7 +17,8 @@ const allowedOrigins = process.env.CLIENT_URL
   ? process.env.CLIENT_URL.split(',').map((origin) => origin.trim())
   : ['http://localhost:5173',
     "http://192.168.0.101:5173",
-    "https://13.206.11.231",
+    "http://13.206.11.231",
+    "https://cctvit.netlify.app"
 
 
   ];
