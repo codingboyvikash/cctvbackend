@@ -47,6 +47,14 @@ app.get('/', (req, res) => {
     message: 'IT CCTV Backend API is running',
   });
 });
+
+app.get('/vikas', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'git pull on server',
+  });
+});
+
 app.get('/api/health', (req, res) => {
   res.status(200).json({ success: true, message: 'API is healthy' });
 });
