@@ -48,7 +48,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/vikas', (req, res) => {
+app.get('/api/vikas', (req, res) => {
   res.status(200).json({
     success: true,
     message: 'git pull on server',
